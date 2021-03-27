@@ -3,6 +3,7 @@ import React from 'react';
 import AppHeader from '../app-header';
 import Slider from '../slider';
 import AboutCracker from '../about-cracker';
+import CrackerConstructor from '../cracker-constructor'
 
 const App = () => {
     return(
@@ -10,6 +11,7 @@ const App = () => {
             <AppHeader/>
             <Slider/>
             <AboutCracker/>
+            <CrackerConstructor/>
         </div>
     )
 } 
