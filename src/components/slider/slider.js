@@ -1,10 +1,12 @@
 import React from 'react';
 
+import './slider.scss';
+
 const Slider = () => {
     return (
-        <div>
+        <div className = 'first-slide'>
             <h1>mostly tastes with freshes</h1>
-            <div>
+            <div className = 'description'>
                 <p>Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

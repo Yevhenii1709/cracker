@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './cracker-constructor.scss';
+
 // let slider = document.getElementById("myRange");
 // let output = document.getElementById("demo");
 // output.innerHTML = slider.value;

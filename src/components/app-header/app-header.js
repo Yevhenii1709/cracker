@@ -1,14 +1,16 @@
 import React from 'react';
 
+import './app-header.scss';
+
 const AppHeader = () => {
     return (
-        <div className ="app-header">
-            <div>
+        <div className ="header">
+            <div className='order-info'>
                 <p>quantity</p>
                 <p>total: 145</p>
                 <p>details</p>
             </div>
-            <div>
+            <div className = "menu">
                 <ul>
                     <li>Home</li>
                     <li>About us</li>
