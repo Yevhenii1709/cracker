@@ -15,7 +15,26 @@ const CrackerConstructor = () => {
         <div>
             <h1>Cracker constructor</h1>
             <div className = "slidecontainer">
-                <input type = "range" min = "1" max = "100" value = "50" className = "slider" id = "myRange"/>
+                <div className="sliderr-wrapper">
+                    <div className="corn-image"></div>
+                    <input type = "range" min = "1" max = "100" value = "50" className = "slider" id = "myRange"/>
+                    <p>Value: <span id="demo"></span></p>
+                </div>
+                <div className="sliderr-wrapper">
+                    <div className="corn-image"></div>
+                    <input type = "range" min = "1" max = "100" value = "50" className = "slider" id = "myRange"/>
+                    <p>Value: <span id="demo"></span></p>
+                </div>
+                <div className="sliderr-wrapper">
+                    <div className="corn-image"></div>
+                    <input type = "range" min = "1" max = "100" value = "50" className = "slider" id = "myRange"/>
+                    <p>Value: <span id="demo"></span></p>
+                </div>
+                <div className="sliderr-wrapper">
+                    <div className="corn-image"></div>
+                    <input type = "range" min = "1" max = "100" value = "50" className = "slider" id = "myRange"/>
+                    <p>Value: <span id="demo"></span></p>
+                </div>
             </div>
         </div>
     )
